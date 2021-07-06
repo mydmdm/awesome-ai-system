@@ -1,4 +1,4 @@
-# Awesome Machine Learning / Deep Learning Resources
+# Awesome System for AI Resources
 Here is a collection of valuable machine learning / deep learning resources, including courses, publications, and projects. 
 
 ## Model Compression
