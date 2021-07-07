@@ -1,10 +1,11 @@
 # Awesome System for AI Resources
-Here is a collection of valuable machine learning / deep learning resources, including courses, publications, and projects. 
+Here is a collection of valuable machine learning / deep learning resources, including courses, publications, and projects. Quick notes and highlights of the materials are annotated if possible. 
 
 ## Model Compression
 
 ### Recent works from [Song Han](https://songhan.mit.edu/)'s team
-- [SpAtten: Efficient Sparse Attention Architecture with Cascade Token and Head Pruning](https://spatten.mit.edu/)(HPCA'21)
+- [SpAtten: Efficient Sparse Attention Architecture with Cascade Token and Head Pruning](https://spatten.mit.edu/)(HPCA'21) 
+> This paper talks about both *algorithmeic optimization* and the *hardware architecture* fitted to it. The proposed algrotihms includes pruning (Cascade Token/Head Pruning) and quantization (Progressive Quantization). 
 - [SpArch: Efficient Architecture for Sparse Matrix Multiplication](https://sparch.mit.edu/)(HPCA'20)
 - [APQ: Joint Search for Network Architecture, Pruning and Quantization Policy](https://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_APQ_Joint_Search_for_Network_Architecture_Pruning_and_Quantization_Policy_CVPR_2020_paper.pdf) (CVPR'20, [code](https://github.com/mit-han-lab/apq))
 - [Once for All: Train One Network and Specialize it for Efficient Deployment](https://arxiv.org/abs/1908.09791) (ICLR'20, [code](https://github.com/mit-han-lab/once-for-all))
