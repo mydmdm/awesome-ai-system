@@ -4,6 +4,10 @@ Here is a collection of valuable machine learning / deep learning resources, inc
 ## Model Compression
 It is important to reduce the redundance of the over-parameterized DNN models before real deployment. Pruning (structure or unstructured) and quantization are widely adopted compressing methods. There are actually two problems to address in this area, how to identify the redundance (algorithmic) and how to leverage the redundance to speedup (systemic).
 
+### Compress transformers
+
+- [Compressed Transformer](https://github.com/khakhulin/compressed-transformer)
+
 ### Recent works from [Song Han](https://songhan.mit.edu/)'s team
 - [SpAtten: Efficient Sparse Attention Architecture with Cascade Token and Head Pruning](https://spatten.mit.edu/) (HPCA'21) 
     > This paper talks about both *algorithmic optimization* and the *hardware architecture* fitted to it. The proposed algorithms includes pruning (Cascade Token/Head Pruning) and quantization (Progressive Quantization). 
@@ -25,7 +29,7 @@ Building production level machine learning applications is much more than traini
 - [Machine Learning Engineering for Production (MLOps) Specialization](https://www.coursera.org/specializations/machine-learning-engineering-for-production-mlops) (Coursera, [talk](https://www.deeplearning.ai/wp-content/uploads/2021/06/MLOps-From-Model-centric-to-Data-centric-AI.pdf))
 
 ### Handbooks
-- [Machine Learning Yearning](https://github.com/ajaymache/machine-learning-yearning) ()
+- [Machine Learning Yearning](https://www.deeplearning.ai/programs/) ([chinese version](https://github.com/deeplearning-ai/machine-learning-yearning-cn))
 - [Approaching (Almost) Any Machine Learning Problem](https://github.com/abhishekkrthakur/approachingalmost)
 
 ### Tools and best practices
