@@ -1,16 +1,22 @@
 # Awesome System for AI Resources
 Here is a collection of valuable machine learning / deep learning resources, including courses, publications, and projects. Quick notes and highlights of the materials are annotated if possible. 
 
+## Deep Learning Compiling
+
+### Kernel optimization and generation
+- [**UNIT: Unifying Tensorized Instruction Compilation**](https://arxiv.org/abs/2101.08458) (CGO'21)
+- [taco: A Tool to Generate Tensor Algebra Kernels](http://tensor-compiler.org/taco-tools.pdf) (ASE'17, [following works](http://tensor-compiler.org/publications.html), [code](https://github.com/tensor-compiler/taco))
+
 ## Model Compression
 It is important to reduce the redundance of the over-parameterized DNN models before real deployment. Pruning (structure or unstructured) and quantization are widely adopted compressing methods. There are actually two problems to address in this area, how to identify the redundance (algorithmic) and how to leverage the redundance to speedup (systemic).
 
 ### Compress transformers
 
 - [Compressed Transformer](https://github.com/khakhulin/compressed-transformer)
-
-### Recent works from [Song Han](https://songhan.mit.edu/)'s team
-- [SpAtten: Efficient Sparse Attention Architecture with Cascade Token and Head Pruning](https://spatten.mit.edu/) (HPCA'21) 
+- [**SpAtten: Efficient Sparse Attention Architecture with Cascade Token and Head Pruning**](https://spatten.mit.edu/) (HPCA'21) 
     > This paper talks about both *algorithmic optimization* and the *hardware architecture* fitted to it. The proposed algorithms includes pruning (Cascade Token/Head Pruning) and quantization (Progressive Quantization). 
+### Recent works from [Song Han](https://songhan.mit.edu/)'s team
+
 - [SpArch: Efficient Architecture for Sparse Matrix Multiplication](https://sparch.mit.edu/)(HPCA'20)
 - [APQ: Joint Search for Network Architecture, Pruning and Quantization Policy](https://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_APQ_Joint_Search_for_Network_Architecture_Pruning_and_Quantization_Policy_CVPR_2020_paper.pdf) (CVPR'20, [code](https://github.com/mit-han-lab/apq))
 - [Once for All: Train One Network and Specialize it for Efficient Deployment](https://arxiv.org/abs/1908.09791) (ICLR'20, [code](https://github.com/mit-han-lab/once-for-all))
