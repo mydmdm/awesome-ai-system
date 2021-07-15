@@ -7,8 +7,17 @@ Here is a collection of valuable machine learning / deep learning resources, inc
 - [**UNIT: Unifying Tensorized Instruction Compilation**](https://arxiv.org/abs/2101.08458) (CGO'21)
 - [taco: A Tool to Generate Tensor Algebra Kernels](http://tensor-compiler.org/taco-tools.pdf) (ASE'17, [following works](http://tensor-compiler.org/publications.html), [code](https://github.com/tensor-compiler/taco))
 
+### Related researchers
+- [Tony Nowatzki](http://web.cs.ucla.edu/~tjn//03-publications/) (Assistant Professor of Computer Science @UCLA)
+
 ## Model Compression
 It is important to reduce the redundance of the over-parameterized DNN models before real deployment. Pruning (structure or unstructured) and quantization are widely adopted compressing methods. There are actually two problems to address in this area, how to identify the redundance (algorithmic) and how to leverage the redundance to speedup (systemic).
+
+### Surveys
+- [MingSun-Tse/EfficientDNNs](https://github.com/MingSun-Tse/EfficientDNNs)
+  > Collection of recent methods on DNN compression and acceleration
+
+
 
 ### Compress transformers
 
@@ -32,7 +41,7 @@ Building production level machine learning applications is much more than traini
 
 - [CS 329S: Machine Learning Systems Design](https://stanford-cs329s.github.io/syllabus.html) (Stanford'21)
 - [CS 294: Machine Learning Systems (Fall 2019)](https://ucbrise.github.io/cs294-ai-sys-fa19/) (UCBRISE'19)
-- [Machine Learning Engineering for Production (MLOps) Specialization](https://www.coursera.org/specializations/machine-learning-engineering-for-production-mlops) (Coursera, [talk](https://www.deeplearning.ai/wp-content/uploads/2021/06/MLOps-From-Model-centric-to-Data-centric-AI.pdf))
+- [Machine Learning Engineering for Production (MLOps) Specialization](https://www.coursera.org/specializations/machine-learning-engineering-for-production-mlops) (Coursera by Andrew Ng, [talk](https://www.deeplearning.ai/wp-content/uploads/2021/06/MLOps-From-Model-centric-to-Data-centric-AI.pdf))
 
 ### Handbooks
 - [Machine Learning Yearning](https://www.deeplearning.ai/programs/) ([chinese version](https://github.com/deeplearning-ai/machine-learning-yearning-cn))
