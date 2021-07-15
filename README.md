@@ -1,6 +1,12 @@
 # Awesome System for AI Resources
 Here is a collection of valuable machine learning / deep learning resources, including courses, publications, and projects. Quick notes and highlights of the materials are annotated if possible. 
 
+## Overview and principles 
+
+- [CS 329S: Machine Learning Systems Design](https://stanford-cs329s.github.io/syllabus.html) (Stanford'21)
+- [CS 294: Machine Learning Systems (Fall 2019)](https://ucbrise.github.io/cs294-ai-sys-fa19/) (UCBRISE'19)
+- [EECS 598: Systems for AI (W'21)](https://github.com/mosharaf/eecs598/tree/w21-ai) (hosted by [Mosharaf Chowdhury](https://www.mosharaf.com/))
+  > very good collections of concepts and key ideas (papers) of a wide area of this topic
 ## Deep Learning Compiling
 
 ### Kernel optimization and generation
@@ -37,16 +43,10 @@ It is important to reduce the redundance of the over-parameterized DNN models be
 ## Machine Learning Systems in Wide
 Building production level machine learning applications is much more than training a neural network model. This section collects the principles and methodologies as the technical / engineering guideline for it.
 
-### Principles and methodologies
-
-- [CS 329S: Machine Learning Systems Design](https://stanford-cs329s.github.io/syllabus.html) (Stanford'21)
-- [CS 294: Machine Learning Systems (Fall 2019)](https://ucbrise.github.io/cs294-ai-sys-fa19/) (UCBRISE'19)
-- [Machine Learning Engineering for Production (MLOps) Specialization](https://www.coursera.org/specializations/machine-learning-engineering-for-production-mlops) (Coursera by Andrew Ng, [talk](https://www.deeplearning.ai/wp-content/uploads/2021/06/MLOps-From-Model-centric-to-Data-centric-AI.pdf))
-
 ### Handbooks
 - [Machine Learning Yearning](https://www.deeplearning.ai/programs/) ([chinese version](https://github.com/deeplearning-ai/machine-learning-yearning-cn))
 - [Approaching (Almost) Any Machine Learning Problem](https://github.com/abhishekkrthakur/approachingalmost)
-
+- [Machine Learning Engineering for Production (MLOps) Specialization](https://www.coursera.org/specializations/machine-learning-engineering-for-production-mlops) (Coursera by Andrew Ng, [talk](https://www.deeplearning.ai/wp-content/uploads/2021/06/MLOps-From-Model-centric-to-Data-centric-AI.pdf))
 ### Tools and best practices
 - [EthicalML/awesome-production-machine-learning](https://github.com/EthicalML/awesome-production-machine-learning)
     > A curated list of awesome open source libraries to deploy, monitor, version and scale your machine learning
