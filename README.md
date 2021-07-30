@@ -12,6 +12,8 @@ Here is a collection of valuable machine learning / deep learning resources, inc
 ### Kernel optimization and generation
 - [**UNIT: Unifying Tensorized Instruction Compilation**](https://arxiv.org/abs/2101.08458) (CGO'21)
 - [taco: A Tool to Generate Tensor Algebra Kernels](http://tensor-compiler.org/taco-tools.pdf) (ASE'17, [following works](http://tensor-compiler.org/publications.html), [code](https://github.com/tensor-compiler/taco))
+- [**Sparse GPU Kernels for Deep Learning**](https://arxiv.org/abs/2006.10901) (SC20)
+  > this paper presents practical and efficient techniques to optimize a general-purpose sparse kernel, esp. for SpMM.
 
 ### Related researchers
 - [Tony Nowatzki](http://web.cs.ucla.edu/~tjn//03-publications/) (Assistant Professor of Computer Science @UCLA)
@@ -22,7 +24,7 @@ It is important to reduce the redundance of the over-parameterized DNN models be
 ### Surveys
 - [MingSun-Tse/EfficientDNNs](https://github.com/MingSun-Tse/EfficientDNNs)
   > Collection of recent methods on DNN compression and acceleration
-
+- [awesome-fast-attention](https://github.com/Separius/awesome-fast-attention)
 
 
 ### Compress transformers
