@@ -49,10 +49,13 @@ Building production level machine learning applications is much more than traini
 - [Machine Learning Yearning](https://www.deeplearning.ai/programs/) ([chinese version](https://github.com/deeplearning-ai/machine-learning-yearning-cn))
 - [Approaching (Almost) Any Machine Learning Problem](https://github.com/abhishekkrthakur/approachingalmost)
 - [Machine Learning Engineering for Production (MLOps) Specialization](https://www.coursera.org/specializations/machine-learning-engineering-for-production-mlops) (Coursera by Andrew Ng, [talk](https://www.deeplearning.ai/wp-content/uploads/2021/06/MLOps-From-Model-centric-to-Data-centric-AI.pdf))
+
 ### Tools and best practices
 - [EthicalML/awesome-production-machine-learning](https://github.com/EthicalML/awesome-production-machine-learning)
     > A curated list of awesome open source libraries to deploy, monitor, version and scale your machine learning
 - [alirezadir/Production-Level-Deep-Learning](https://github.com/alirezadir/Production-Level-Deep-Learning)
     > A guideline for building practical production-level deep learning systems to be deployed in real world applications
 
-
+### Blogs and articles
+- [Machine learning system design](https://medium.com/acing-ai/machine-learning-system-design-c3a35c7df07d)
+  > A primer for machine learning system design interviews published in [medium](medium.com). The author lists some valuable question to ask when designing a practical ML system.
