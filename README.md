@@ -52,10 +52,17 @@ Building production level machine learning applications is much more than traini
 
 ### Tools and best practices
 - [EthicalML/awesome-production-machine-learning](https://github.com/EthicalML/awesome-production-machine-learning)
-    > A curated list of awesome open source libraries to deploy, monitor, version and scale your machine learning
+  > A curated list of awesome open source libraries to deploy, monitor, version and scale your machine learning
 - [alirezadir/Production-Level-Deep-Learning](https://github.com/alirezadir/Production-Level-Deep-Learning)
-    > A guideline for building practical production-level deep learning systems to be deployed in real world applications
+  > A guideline for building practical production-level deep learning systems to be deployed in real world applications
 
 ### Blogs and articles
 - [Machine learning system design](https://medium.com/acing-ai/machine-learning-system-design-c3a35c7df07d)
   > A primer for machine learning system design interviews published in [medium](medium.com). The author lists some valuable question to ask when designing a practical ML system.
+
+## Carbon efficient AI
+
+- [Energy and Policy Considerations for Deep Learning in NLP](https://arxiv.org/pdf/1906.02243.pdf)
+  > it firstly reports that a single deep learning model can generate up to 626,155 pounds of CO2 emissions—roughly equal to the total lifetime carbon footprint of five cars
+- [Green AI](https://arxiv.org/abs/1907.10597) 
+- [ML CO2 Impact](https://mlco2.github.io/impact/)
